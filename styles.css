@@ -1,0 +1,39 @@
+input{
+  accent-color: rgba(0,0,0,0.75);
+}
+.quiz{
+  background-color: rgba(255, 193, 7,0.75);
+  padding-bottom:100px;
+  padding-top:30px; 
+  margin-top: 100px;
+}
+
+.result{
+  margin: auto;
+  background-color: rgba(0,0,0, 0.8);
+  color:rgb(255, 193, 7);
+  max-width: 350px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 3px;
+}
+.result p span{
+  font-size: 1.3em;
+}
+.header{
+  height: 100px !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+@media (max-width: 700px){
+  body{
+    font-size: 0.9em;
+  }
+  .result{
+    max-width: 300px;
+  }
+}
